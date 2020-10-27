@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+  </head>
+
+  <body>
+    <script>
+      var a = prompt ('Как дела, Абрамыч?','')
+      while (a != 'Нормально') {
+      a = prompt ('А если честно?','');
+      if (!a) {
+        alert ('А я думал - нормально') 
+        break
+      }
+      }
+      if (a == 'Нормально') {
+      alert ('Я так и думал')
+      }
+    </script>
+  </body>
+
+</html>
